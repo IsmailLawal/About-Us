@@ -1,0 +1,105 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+  <style>
+    #yellow {color: yellow;} 
+    #green {color: green;}
+    body {
+      background-color: #b3d9ff;
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+    }
+    h1, h3, p {
+      text-align: center;
+      color: black;
+    }
+    img {
+      opacity: 0.5;
+      display: block;
+      margin: 20px auto;
+    }
+    .menu {
+      background-color: #333;
+      overflow: hidden;
+    }
+    .nav-primary {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+    }
+    .nav-primary li {
+      margin: 0 15px;
+    }
+    .nav-primary a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      font-size: 16px;
+    }
+    .nav-primary a:hover {
+      color: #yellow;
+    }
+  </style> 
+</head> 
+<body>
+  <img src="https://wallpapercave.com/wp/wp7422177.png" width="100" height="100" alt="Arsenal">
+  
+  <!-- Primary Menu -->
+  <div class="menu">
+      <ul class="nav-primary">
+          <li><a href="Index.html">Home</a></li>
+          <li><a href="AboutUs.html">About Us</a></li>
+          <li><a href="Contactus.html">Contact Us</a></li>
+      </ul>
+  </div>
+  
+  <h1 class="mt-20 mb-0 text-lg">Gunner News</h1>
+  <h3 class="lead text-muted mb-40">Official fanpage of Arsenal F.C</h3>
+  <p><a href="#latest-news">Latest News and Updates</a></p>
+  <p><a href="#injury-update">Injury Update</a></p>
+  <p><a href="#transfer-news">Transfer News</a></p>
+  <p><a href="#academy-news">Academy News</a></p>
+  <p><a href="#about-the-club">About the Club</a></p>
+  <p><a href="#shop-now">Shop Now</a></p>
+
+  <!-- Content Sections -->
+  <section id="latest-news">
+    <h2>Latest News and Updates</h2>
+    <p>Explore the latest news and updates about Arsenal F.C.</p>
+    <!-- Add more content as needed -->
+  </section>
+
+  <section id="injury-update">
+    <h2>Injury Update</h2>
+    <p>Stay informed about the team's injury status.</p>
+    <!-- Add more content as needed -->
+  </section>
+
+  <section id="transfer-news">
+    <h2>Transfer News</h2>
+    <p>Get the latest updates on player transfers.</p>
+    <!-- Add more content as needed -->
+  </section>
+
+  <section id="academy-news">
+    <h2>Academy News</h2>
+    <p>Discover news about the Arsenal Academy and youth teams.</p>
+    <!-- Add more content as needed -->
+  </section>
+
+  <section id="about-the-club">
+    <h2>About the Club</h2>
+    <p>Learn more about the history and achievements of Arsenal F.C.</p>
+    <!-- Add more content as needed -->
+  </section>
+
+  <section id="shop-now">
+    <h2>Shop Now</h2>
+    <p>Explore official Arsenal merchandise and support your team!</p>
+    <!-- Add more content as needed -->
+  </section>
+</body> 
+</html>
